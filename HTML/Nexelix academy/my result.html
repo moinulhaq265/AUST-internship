@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Result</title>
+</head>
+<body>
+    <header width="100%" border="1">
+        <p><small>Student / Results</small></p>
+        <h1>My Results</h1>
+    </header>
+    <hr>
+
+    <main>
+        <table width="100%" cellspacing="10" cellpadding="15" border="0">
+            <h3>Filters</h3>
+            <td>
+            <form action="Filters">
+                <label for="year">Year :</label>
+                <input type="number" name="year" id="year" placeholder="Year"> 
+                <p>Term :
+                    <select>
+                    <option value="all term">All term</option>
+                    <option value="1st term">1st term</option>
+                    <option value="2nd term">2nd term</option>
+                    <option value="3rd term">3rd term</option>
+                    <option value="Final">Final</option>
+                </select>
+                </p>  
+                <button style="background-color: black; color: aliceblue;">Refresh</button>
+            </form>
+            </td>
+        </table>
+        <br><br>
+        <hr>
+
+        <!-- student information -->
+         <table width="100%" cellspacing="" cellpadding="25" border="1">
+            <tr>
+                <td>
+                    <h3>Student Information</h3>
+                    <table width="100%" cellspacing="" cellpadding="9" border="">
+                        <td>
+                            <p><strong>Name :</strong> Moin ul haq</p>
+                            <p><strong>Course :</strong> Wev development</p>
+                        </td>
+                        <td>
+                            <p><strong>Roll no :</strong> CS-251128</p>
+                            <p><strong>Section :</strong> -</p>
+                        </td>
+                    </table>
+                </td>
+            </tr>
+         </table>
+         <hr>
+
+         <!-- subject wise result -->
+          <table width="100%" cellpadding="25" border="1">
+            <tr>
+                <td width="33%" valign="top" align="hooks">
+                    <h3>subject wise result</h3>
+                    <br>
+                    <table>
+                        <thead>
+                            <tr>
+                                <th align="left">Subject</th>
+                                <th align="left">Exame Type</th>
+                                <th align="left">score</th>
+                                <th align="left">Max</th>
+                                <th align="left">%</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>
+                                    <p>Internship</p>
+                                </td>
+                                <td>Not Recorded</td>
+                            </tr>
+                        </tbody>
+                    </table>
+            </table>
+                    <hr>
+         <!-- over all performance -->
+          <table width="100%" cellpadding="25" cellspacing="" border="1">
+            <tr>
+                <td width="33%" valign="top">
+                    <h3>over all performance</h3>
+                    <p>Total score: <button type="button"> 0/0 </button></p>
+                    <p>overall percentage:<button type="button" margin="2" style="background-color: crimson;">0.00%</button></p>
+                </td>
+            </tr>
+          </table>
+    </main>
+
+    <footer>
+        <table width="100%" cellpading="15" cellspacing="0" border="0">
+            <tr>
+                <td width="33%" valign="left">
+                    <h4>Nexelix Academy Campus</h4>
+                    <p>Building next-generation full-stack engineers, user experience architects, and database managers.</p>
+                    <p>&copy; 2026 Nexelix Academy | All Rights Reserved</p>
+                </td>
+
+                <td width="33%" valign="center">
+                    <strong>Campus Contact Details</strong>
+                    <p>Address : BIC,AUST</p>
+                    <p>Email : AUST@edu.com</p>
+                    <p>Phone : +923419897874</p>
+                </td>
+
+                <td width="33%" valign="right">
+                    <strong>Secure Communication</strong><br>
+                    <a href="https://wa.me/923419897874">WhatsApp</a>
+
+                </td>
+            </tr>
+        </table>
+     </footer>
+</body>
+</html>

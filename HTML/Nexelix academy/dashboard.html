@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student Dashboard</title>
+</head>
+<body>
+     <header>
+        <table width="100%" cellpading="15" cellspacing="10" border="0">
+            <tr>
+                <td width="75%" valign="middle">
+                    <p><small>Student Dashboard</small></p>
+                    <h1>Welcome back</h1>
+                </td>
+
+                <td align="right" valign="middle">
+                    <a href="my result.html"><button style="background-color: black; color: aliceblue;">View My Result</button></a>
+                     <button>Dark mode</button>
+                </td>
+            </tr>
+        </table>
+    </header>
+    <hr> 
+    <!-- main section  -->
+    <main>
+         <table border="0" width="80%" cellspacing="" cellpadding="">
+        <tr> 
+            <!-- for profile picture  -->
+            <td width="20%" align="left" valign="middle">
+                <small>your profile</small><br>
+                 <img src="assets/images/teacher.png" alt="profile" width="110" height="110" border="0" >
+            </td>
+            <!-- for details  -->
+             <td width="80%" align="left" valign="middle">
+                <p><strong>Name :</strong> Moin Ul Haq</p>
+                <p><strong>Roll No :</strong> CS-251128</p>
+                <p><strong>Course :</strong> Web Development</p>
+                <p><strong>Email :</strong> moinulhaq@gmail.com</p>
+                <p><strong>Phone :</strong> ___</p>
+             </td>
+        </tr>
+     </table>
+     <hr>
+
+     <!-- for assignments and announcments -->
+      <table width 100% cellpadding="15" cellspacing="0" border="1" >
+        <tr>
+            
+            <td width="33%" valign="top">
+                <h3>Quick Links</h3><br>
+                <button style="background-color: black; color: aliceblue;">Assignments</button>
+                <button>Announcments</button>
+                <button>Results</button>
+                <br>
+            </td>
+        </tr>
+      </table>
+      <hr>
+
+      <!-- attendance hisory, marks and final result  -->
+       <table width="33%" cellpadding="15" cellspacing="0" border="1">
+            <h2>Attendance History</h2>
+        <tr>
+            <th>Date</th>
+            <th>Subjecct</th>
+            <th>Status</th>
+        </tr>
+        <tr>
+            <td width="33% valign="top >17/05/2026</td>
+            <td>Web Development</td>
+            <td style="background-color: darkgreen; color: aliceblue;">Present</td>
+           
+        </tr>
+        <tr>
+            <td>18/05/2026</td>
+            <td>Web Development</td>
+            <td style="background-color: red; color: aliceblue;">Absent</td>
+        </tr>
+    </table>
+    <br><br>
+    <!-- for marks and final result  -->
+    <table width="33%" cellpadding="15" cellspacing="0" border="1" valign="right">
+            
+        <tr>
+                
+            <td width="33%" valign="right">
+                <h2>Marks & Final Result</h2>
+                <button style="background-color: black; color: aliceblue;">Overall: 0%</button>
+                <button>Status: N/A</button>
+            </td>
+        </tr>            
+    </table>
+    <hr>
+
+    <!-- Announcements -->
+     <table width="100%" cellspacing="15" cellpadding="15" border="1">
+        <tr>
+            <td width="33%" valign="top">
+                <h2>Announcements</h2>
+                <p><small>No announcements yet.</small></p>
+            </td>
+
+        <!-- Assignments -->
+
+            <td width="33%" valign="right">
+                <h2>Assignments</h2>
+                <p><small>Your Assignments Will Appear Here.</small></p>
+            </td>
+         </tr>
+     </table>
+
+
+     <!-- course Enrolling -->
+     <table width="100%" cellspacing="10" cellpadding="25" border="1">
+        <tr>
+            <td width="33%" valign="top" align="middle">
+                <h3>Enrolle Course</h3>
+                <p><small>Web development</small></p>
+                <button style="background-color: black; color: aliceblue;">See Your Progress</button>
+            </td>
+        </tr>
+     </table>
+
+     <!-- for online payment of fee  -->
+      <h2>Fees</h2>
+      <table width="100" cellspacing="10" cellpadding="26" border="1">
+        
+        <tr>
+            <td width="60%" valign="center">
+                <form action="Fee">
+                    <label for="Fee Amount">Fee Amount</label>
+                    <input type="Amount" id="Fee Amount" placeholder="Amount">
+                    <br><br>
+                    <label for="Transiction type">Trnasiction type</label>
+                    <input type="text" id="Transiction Type" placeholder="Type">
+                    <br><br>
+                    <label for="Invoice">Invoice</label>
+                    <input type="number" id="Invoice" placeholder="Invoice">
+                    <br><br>
+                    <button style="background-color: darkgray;" type="button">Generate Fee PDF</button>
+                </form>
+            </td>
+        </tr>
+      </table>
+      <hr>
+    </main>
+
+     <footer>
+        <table width="100%" cellpading="15" cellspacing="0" border="0">
+            <tr>
+                <td width="33%" valign="left">
+                    <h4>Nexelix Academy Campus</h4>
+                    <p>Building next-generation full-stack engineers, user experience architects, and database managers.</p>
+                    <p>&copy; 2026 Nexelix Academy | All Rights Reserved</p>
+                </td>
+
+                <td width="33%" valign="center">
+                    <strong>Campus Contact Details</strong>
+                    <p>Address : BIC,AUST</p>
+                    <p>Email : AUST@edu.com</p>
+                    <p>Phone : +923419897874</p>
+                </td>
+
+                <td width="33%" valign="right">
+                    <strong>Secure Communication</strong><br>
+                    <a href="https://wa.me/923419897874">WhatsApp</a>
+
+                </td>
+            </tr>
+        </table>
+     </footer>
+
+    
+</body>
+</html>
